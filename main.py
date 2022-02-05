@@ -25,7 +25,7 @@ async def on_member_update(before, after):
         async with aiohttp.ClientSession() as session:
             async with session.post(BotWebhook, json={
             "trigger": "up",
-            "name": "EmojiCord is online",
+            "name": "Rado's Utilites is online",
             "message": "Rado's Utilites is back online.",
             "status": "OPERATIONAL"
             }) as resp:
